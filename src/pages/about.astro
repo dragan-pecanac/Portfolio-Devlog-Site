@@ -1,7 +1,8 @@
 ---
 // frontmatter script contains only JavaScript
 import '../styles/global.css';
-import Navigation from '../components/Navigation.astro';
+// import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
 const pageTitle = "About Me";
@@ -54,7 +55,8 @@ const textCase = "uppercase";
 		
 		-->
 		
-		<Navigation/>
+		<Header/>
+		<!-- <Navigation/> -->
 
     <h1>{pageTitle}</h1>
     <h2>... and my new Astro site!</h2>
