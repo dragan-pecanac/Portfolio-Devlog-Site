@@ -1,7 +1,7 @@
 {
   "name": "portfolio-site",
   "type": "module",
-  "version": "0.0.3-alpha",
+  "version": "0.0.4-alpha",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
