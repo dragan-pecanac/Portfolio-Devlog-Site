@@ -57,9 +57,8 @@
     }
   },
   "lint-staged": {
-    "*": [
+    "!(*.{png,jpg,jpeg,webp})": [
       "prettier --plugin-search-dir=. --write"
-    ],
-    "!public/assets/af-ribbons.png": []
+    ]
   }
 }
